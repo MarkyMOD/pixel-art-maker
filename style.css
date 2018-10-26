@@ -1,0 +1,36 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 1fr 3fr 1fr;
+  background-color: #b2beb5;
+  height:100vh;
+
+}
+
+.holder{
+  width:80%;
+  height:80%;
+  grid-row:2/3;
+  grid-column:2/3;
+  justify-self:center;
+}
+
+
+.color{
+  grid-row:3/4;
+  grid-column:2/3;
+}
+
+.btn-circle{
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+p{
+  font-family: serif;
+  font-size: 16px;
+}
